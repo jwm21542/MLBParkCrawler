@@ -1,5 +1,5 @@
 # MLBPark Crawler
-### Crawler for Korean Forum Website 'MLBPark':
+### Crawler for Korean Forum Website ['MLBPark'](https://mlbpark.donga.com/mp/):
 
 ### Required Libaries:
 - beautifulsoup
@@ -46,9 +46,11 @@ chrome_driver_path = 'path/to/chromedriver.exe'
 # Create ChromeDriver instance
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 ```
+Initializing ChromeDriver is simple but may differ by your environment, so please correctly configure if my current setting does not work on your os.
+
 
 # MLBPark 크롤러
-### 한국 포럼 웹사이트 'MLBPark'을 위한 크롤러:
+### 한국 포럼 웹사이트 ['MLBPark'](https://mlbpark.donga.com/mp/)을 위한 크롤러:
 
 ### 필요한 라이브러리:
 - beautifulsoup
@@ -95,3 +97,5 @@ chrome_driver_path = 'path/to/chromedriver.exe'
 # Create ChromeDriver instance
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 ```
+
+ChromeDriver를 초기화하는 것은 간단하지만 환경에 따라 다를 수 있으므로, 현재 설정이 작동하지 않는 경우 환경에 맞게 수정하세요.
