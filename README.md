@@ -5,7 +5,7 @@
 - beautifulsoup
 - selenium
   
-This crawler is will gather all posts based on the search query, as well as its post comments.
+This crawler will gather all posts based on the search query, as well as its post comments.
 
 It uses beautifulsoup in conjunction with selenium, please install if you have not done so already:
 
@@ -15,13 +15,14 @@ pip install -U selenium
 
 ```
 
-There are a few lines you will need to manually enter, as MLBPark encodes its URL. Here is where you will need to edit:
+There are a few lines you will need to manually enter, as MLBPark encodes its URL. You will need to copy and paste from the actual website. 
+
+Here is where you will need to edit:
 ```
 # 변수 설정 
 QUERY = "한동훈"
 search_QUERY = urlencode({'query' : QUERY}, encoding = 'utf-8')
 URL = f"https://mlbpark.donga.com/mp/b.php?search_select=stt&search_input=%ED%95%9C%EB%8F%99%ED%9B%88&x=0&y=0&select=stt&m=search&b=bullpen&query=%ED%95%9C%EB%8F%99%ED%9B%88" 
-
 ```
 
 The QUERY variable is simply your search term. The URL however, you will have to search on MLBPark yourself manually and then copy and paste the URL into the URL variable. Unfortunately this is the best way to do so because of how the website is configured at the moment.
