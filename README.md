@@ -31,7 +31,6 @@ The resulting CSV will be 'MLBPARK_{SearchTERM}_48pages_inner_links.csv' and 'ML
 ### Using ChromeDriver: 
 Make sure you have downloaded the latest ChromeDriver file, which you can find [here](https://chromedriver.chromium.org/getting-started), make sure to get the correct one for your OS and Chrome version. It may be necessary to update your Chrome as well.
 
-On line 48, 90 of py file you will see the following line : 
 ```
 driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
 ```
@@ -47,7 +46,6 @@ chrome_driver_path = 'path/to/chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 ```
 
-As reference, please view the file RedditCrawlerResults.csv for what a resulting file would look like.
 # MLBPark 크롤러
 ### 한국 포럼 웹사이트 'MLBPark'을 위한 크롤러:
 
