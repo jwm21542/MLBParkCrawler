@@ -81,7 +81,7 @@ QUERY 변수는 단순히 검색어입니다. 그러나 URL은 MLBPark에서 직
 ### ChromeDriver 사용전: 
 최신 ChromeDriver 파일을 다운로드했는지 확인하세요. 여기에서 찾을 수 있습니다. 사용 중인 OS 및 Chrome 버전에 맞는 것을 가져오세요. Chrome을 업데이트해야 할 수도 있습니다.
 
-py 파일의 48, 90번째 줄에서 다음 줄을 볼 수 있습니다:
+리눅스로 드라이버 인스턴스 만들기: 
 ```
 driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
 ```
@@ -96,5 +96,3 @@ chrome_driver_path = 'path/to/chromedriver.exe'
 # Create ChromeDriver instance
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 ```
-
-참고로, 결과 파일이 어떻게 보일지 RedditCrawlerResults.csv 파일을 확인해주세요.
